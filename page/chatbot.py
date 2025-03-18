@@ -5,7 +5,7 @@ from google.genai.types import HttpOptions, ModelContent, Part, UserContent
 def chatbot():
     st.header('Chatbot Kesehatan')
     st.subheader('Teknologi yang dipakai menggunakan google gemini')
-    client = genai.Client(api_key="AIzaSyAJpaLmBLtTB4AwEAG4-WlcikCvbHAWUIs")
+    client = genai.Client(api_key="GOOGLE-API-KEY")
    
     sys_instruct = {
         "role": "doctor",
